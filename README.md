@@ -89,7 +89,7 @@ Vérifiez : Redis Commander est accessible sur **http://localhost:8081**.
 
 ```bash
 cd backend
-cp .env.example .env   # adapter si besoin
+cp .env.example .env   
 bun install
 bun run dev
 ```
