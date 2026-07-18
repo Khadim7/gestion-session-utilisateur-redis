@@ -89,7 +89,7 @@ Vérifiez : Redis Commander est accessible sur **http://localhost:8081**.
 
 ```bash
 cd backend
-cp .env.example .env   
+cp .env.exemple .env   
 bun install
 bun run dev
 ```
@@ -104,7 +104,7 @@ curl http://localhost:3001/api/health
 
 ```bash
 cd frontend
-cp .env.example .env
+cp .env.exemple .env
 bun install   # ou: npm install
 bun run dev   # ou: npm run dev
 ```
